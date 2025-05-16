@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rinterio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/18e3814596.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+  <main>
+    <!-- Nav section -->
+    <section class="max-w-screen-xl mx-auto lg:px-24">
+      <!-- NavBar -->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li>
+                <details>
+                  <summary class="text-gray-500">Services</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li><a class="text-gray-500">Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contract Us</a></li>
+            </ul>
+          </div>
+          <span class=" rounded-full px-2 py-1 rotate-320  bg-[#ABEF5F]">
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+          <a class="btn btn-ghost text-2xl">Rinterio</a>
+
+          <!-- Theme control -->
+          <label class="toggle text-base-content">
+            <input type="checkbox" value="synthwave" class="theme-controller" />
+
+            <svg aria-label="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2"></path>
+                <path d="M12 20v2"></path>
+                <path d="m4.93 4.93 1.41 1.41"></path>
+                <path d="m17.66 17.66 1.41 1.41"></path>
+                <path d="M2 12h2"></path>
+                <path d="M20 12h2"></path>
+                <path d="m6.34 17.66-1.41 1.41"></path>
+                <path d="m19.07 4.93-1.41 1.41"></path>
+              </g>
+            </svg>
+
+            <svg aria-label="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="none" stroke="currentColor">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+              </g>
+            </svg>
+
+          </label>
+        </div>
+
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-gray-500 gap-4">
+            <li class="text-black"><a>Home</a></li>
+            <li>
+              <details>
+                <summary>Services</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contract Us</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar-end gap-2">
+          <button class="btn btn-circle">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          <button class="btn btn-circle">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+
+          <a class="btn rounded-full bg-[#ABEF5F] ">Book Consult
+            <span class=" rounded-full px-2 py-1 rotate-320 text-white bg-black">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Banner part -->
+      <div class=" min-h-screen">
+
+        <div class=" text-center">
+
+          <div class="justify-center flex">
+            <img src="assets/banner.png" alt="">
+          </div>
+
+          <div class="px-20">
+            <h1 class="text-5xl font-extrabold">A barn house of this design has a striking appearance</h1>
+            <p class="py-6">The barn house captivates with its blend of rustic charm and modern sophistication,
+              featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <a class="btn rounded-full bg-[#ABEF5F] ">View Details
+              <span class=" rounded-full px-2 py-1 rotate-320 text-white bg-black">
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Service section -->
+    <section class="bg-gray-100 py-20">
+      <img class="ml-27 hidden lg:block" src="assets/Vector.png" alt="">
+     <div class="max-w-screen-xl mx-auto lg:px-24 ">
+      <div class="card lg:card-side">
+
+        <div class="card-body items-center lg:items-start text-center lg:text-left">
+
+          <div class="card-actions">
+            <button class="btn rounded-full"> <i class="fa-solid fa-arrow-right"></i> About Us</button>
+          </div>
+          <h2 class="card-title font-bold text-4xl my-4">We design thoughtful, liveable spaces</h2>
+          <p class="text-gray-500 ">The barn house captivates with its blend of rustic charm and
+            modern sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+
+          <div class="card card-side bg-base-100 py-5 px-5 rounded-2xl mt-4">
+            <figure class="w-1/5">
+              <img  src="assets/commercial.png" alt=""/>
+            </figure>
+            <div class="card-body text-left">
+              <h2 class="card-title">Commercial</h2>
+              <p class="text-gray-400">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+
+          <div class="card card-side bg-base-100 py-5 px-5 rounded-2xl my-4">
+            <figure class="w-1/5">
+              <img  src="assets/residential.png" alt=""/>
+            </figure>
+            <div class="card-body text-left">
+              <h2 class="card-title">Residential</h2>
+              <p class="text-gray-400">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <figure class="lg:w-2/3 rounded-2xl ">
+          <img class="" src="assets/Rectangle.png" alt="Album" />
+        </figure>
+
+      </div>
+     </div>
+    </section>
+
+    <!-- Stat Section -->
+     <section class="bg-gray-100 py-20">
+      <div class="max-w-screen-xl mx-auto lg:px-24 bg-white">
+        <div>
+          <i class="fa-regular fa-comment"></i>
+          <h1>235+</h1>
+          <p>Happy Client Review</p>
+        </div>
+      </div>
+     </section>
+
+  </main>
+</body>
+
+</html>

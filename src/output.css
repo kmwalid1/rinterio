@@ -1,0 +1,92 @@
+/*! tailwindcss v4.1.6 | MIT License | https://tailwindcss.com */
+.z-1 {
+  z-index: 1;
+}
+.mx-auto {
+  margin-inline: auto;
+}
+.ml-\[-4\] {
+  margin-left: -4;
+}
+.ml-\[-\] {
+  margin-left: -;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.size-\[1\.2em\] {
+  width: 1.2em;
+  height: 1.2em;
+}
+.h-auto {
+  height: auto;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-1\/2 {
+  width: calc(1/2 * 100%);
+}
+.w-1\/3 {
+  width: calc(1/3 * 100%);
+}
+.w-1\/4 {
+  width: calc(1/4 * 100%);
+}
+.w-1\/5 {
+  width: calc(1/5 * 100%);
+}
+.rotate-45 {
+  rotate: 45deg;
+}
+.rotate-180 {
+  rotate: 180deg;
+}
+.rotate-220 {
+  rotate: 220deg;
+}
+.rotate-280 {
+  rotate: 280deg;
+}
+.rotate-300 {
+  rotate: 300deg;
+}
+.rotate-320 {
+  rotate: 320deg;
+}
+.place-content-center {
+  place-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.rounded-full {
+  border-radius: calc(infinity * 1px);
+}
+.bg-\[\#1E40AF\] {
+  background-color: #1E40AF;
+}
+.bg-\[\#ABEF5F\] {
+  background-color: #ABEF5F;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.underline {
+  text-decoration-line: underline;
+}
